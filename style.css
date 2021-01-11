@@ -1,0 +1,31 @@
+.flex-column {
+    width: 800px;
+    height: 400px;
+    margin: 10vh auto auto auto;
+}
+.canvas-wrapper {
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.space-between {
+    justify-content: space-between;
+}
+.grid {
+    font-size: 2rem;
+    color: orangered;
+}
+.possition {
+    font-size: 2.2rem;
+    color: green;
+}
